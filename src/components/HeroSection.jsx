@@ -141,7 +141,7 @@ function HeroSection() {
 
             {/* Embedded Image with Blend Mode and Radial Mask */}
             <div
-               className="relative z-10 w-[120%] h-[120%] -ml-[10%] flex items-center justify-center overflow-hidden"
+               className="relative z-10 w-[150%] h-[150%] -ml-[40%] flex items-center justify-center overflow-hidden"
                style={{
                  WebkitMaskImage:
                   'radial-gradient(circle, rgba(0,0,0,1) 55%, rgba(0,0,0,0) 100%)',
