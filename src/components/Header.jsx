@@ -15,11 +15,11 @@ function Header() {
   }, []);
 
   const navLinks = [
-    { name: 'INÍCIO', href: '/' },
-    { name: 'SOBRE', href: '/sobre' },
-    { name: 'SERVIÇOS', href: '/servicos' },
-    { name: 'CONTEÚDOS', href: '/conteudos' },
-    { name: 'DEPOIMENTOS', href: '/depoimentos' },
+    { name: 'Conheça', href: '/' },
+    { name: 'Eu sou', href: '/sobre' },
+    { name: 'Leituras', href: '/servicos' },
+    { name: 'Pra você', href: '/conteudos' },
+    { name: 'Comunidade', href: '/depoimentos' },
     { name: 'CONTATO', href: '/contato' }
   ];
 
@@ -104,7 +104,7 @@ function Header() {
             className="hidden lg:flex items-center justify-center px-7 py-3 rounded-full bg-[#c89235] text-[#1a0c05] font-semibold text-[11px] tracking-[1.4px] uppercase notranslate"
           >
             <span className="notranslate" translate="no">
-              ✦ AGENDAR LEITURA ✦
+              ✦ QUERO MINHA LEITURA ✦
             </span>
           </Link>
 
