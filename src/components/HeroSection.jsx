@@ -99,7 +99,7 @@ function HeroSection() {
             >
               <button
                 onClick={() => navigate('/servicos')}
-                className="px-8 py-4 bg-[hsl(var(--golden-orange))] text-white font-semibold rounded-lg transition-all duration-300 hover:shadow-[0_0_40px_hsl(var(--golden-orange)/0.6)] hover:scale-105 active:scale-95 text-center relative overflow-hidden group"
+                className="px-8 py-4 bg-[#c89b5b] text-white font-semibold rounded-lg transition-all duration-300 hover:shadow-[0_0_40px_hsl(var(--golden-orange)/0.6)] hover:scale-105 active:scale-95 text-center relative overflow-hidden group"
               >
                 <span className="relative z-10 drop-shadow-md">REVELAR MEU MAPA</span>
                 <div className="absolute inset-0 animate-shimmer pointer-events-none" />
