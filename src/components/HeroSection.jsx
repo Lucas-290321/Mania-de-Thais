@@ -55,8 +55,7 @@ function HeroSection() {
                style={{
                   letterSpacing: '-0.02em',
                  textWrap: 'balance',
-                  fontFamily: '"Cormorant Garamond", serif'
-}}
+                  fontFamily: '"Cormorant Garamond", serif'}}
             >
               Você não é só o seu signo.
             </motion.h1>
