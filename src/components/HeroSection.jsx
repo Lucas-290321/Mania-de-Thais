@@ -7,7 +7,12 @@ function HeroSection() {
   const navigate = useNavigate();
 
   return (
-    <section id="inicio" className="min-h-screen cosmic-bg flex items-center pt-20 relative overflow-hidden">
+    <section 
+      id="inicio" 
+      className="min-h-screen flex items-center pt-20 relative overflow-hidden bg-cover bg-center"
+      style={{
+        backgroundImage: "src('/imagem_01.jpeg')"
+      }}>
       {/* Background Particle Effects */}
       <div className="absolute inset-0 pointer-events-none z-0">
         {[...Array(30)].map((_, i) => (
