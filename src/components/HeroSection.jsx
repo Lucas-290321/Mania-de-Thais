@@ -106,7 +106,7 @@ function HeroSection() {
               </button>
               <button
                 onClick={() => navigate('/conteudos')}
-                className="px-8 py-4 bg-transparent border-2 border-white/30 text-white font-semibold rounded-lg transition-all duration-300 hover:border-white/60 hover:bg-white/10 hover:backdrop-blur-sm active:scale-95 text-center"
+                className="px-8 py-4 bg-transparent border-2 border-[#c89b5b]/30 text-[#c89b5b] font-semibold rounded-lg transition-all duration-300 hover:border-[#c89b5b]/60 hover:bg-[#c89b5b]/10 hover:backdrop-blur-sm active:scale-95 text-center"
               >
                 DESCOBRIR MAIS
               </button>
