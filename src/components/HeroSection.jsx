@@ -147,26 +147,6 @@ function HeroSection() {
             {/* Animated Light Rays Overlay */}
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[150%] h-[150%] light-ray-overlay animate-ray-spin opacity-50 mix-blend-screen mask-radial-fade" />
 
-            {/* Embedded Image with Blend Mode and Radial Mask */}
-            <div
-               className="relative z-10 w-[280%] h-[280%] -ml-[10%] flex items-center justify-center overflow-hidden"
-               style={{
-                 WebkitMaskImage:
-                  'radial-gradient(circle, rgba(0,0,0,1) 55%, rgba(0,0,0,0) 100%)',
-                 maskImage:
-                  'radial-gradient(circle, rgba(0,0,0,1) 55%, rgba(0,0,0,0) 100%)'
-             }}
->
-            <img
-              src="/imagem_01.jpeg"
-              alt="Mystical woman with zodiac wheel, moon, candles, and crystals embedded in cosmic atmosphere"
-              className="w-full h-full object-contain mix-blend-screen opacity-95"
-              style={{
-                filter: 'brightness(1.05) contrast(1.08)'
-               }}
-              />
-            </div>
-
             {/* Foreground Focused Particles over the image */}
             <div className="absolute inset-0 z-20">
               {[...Array(15)].map((_, i) => (
