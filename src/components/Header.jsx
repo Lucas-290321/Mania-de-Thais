@@ -15,11 +15,11 @@ function Header() {
   }, []);
 
   const navLinks = [
-    { name: 'Conheça', href: '/' },
-    { name: 'Eu sou', href: '/sobre' },
-    { name: 'Leituras', href: '/servicos' },
-    { name: 'Pra você', href: '/conteudos' },
-    { name: 'Comunidade', href: '/depoimentos' },
+    { name: 'CONHEÇA', href: '/' },
+    { name: 'EU SOU', href: '/sobre' },
+    { name: 'LEITURAS', href: '/servicos' },
+    { name: 'PRA VOCÊ', href: '/conteudos' },
+    { name: 'COMUNIDADE', href: '/depoimentos' },
     { name: 'CONTATO', href: '/contato' }
   ];
 
