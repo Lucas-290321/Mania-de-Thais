@@ -58,11 +58,11 @@ function HeroSection() {
                   letterSpacing: '-0.01em',
                   textWrap: 'balance'}}
             >
-              Você não é {''}
+              Você não nasceu para caber em um  {''}
                <span className="text-[#c89b5b] italic">
-                 somente
+                 único
                </span>{' '}
-               o seu signo.
+              signo.
             </motion.h1>
 
             {/* Subheading - Script Style */}
@@ -77,7 +77,7 @@ function HeroSection() {
                   letterSpacing: '-0.01em',
                   textWrap: 'balance'}}
             >
-              Existe um universo inteiro dentro de você.
+              A Astrologia não prevê, nem determina quem você é. Ela traduz as energias invisíveis a sua vida.
             </motion.p>
 
             {/* Body Text */}
@@ -98,17 +98,17 @@ function HeroSection() {
               className="flex flex-col sm:flex-row gap-4"
             >
               <button
-                onClick={() => navigate('/contato')}
+                onClick={() => navigate('/LEITURAS')}
                 className="px-8 py-4 bg-[hsl(var(--golden-orange))] text-white font-semibold rounded-lg transition-all duration-300 hover:shadow-[0_0_40px_hsl(var(--golden-orange)/0.6)] hover:scale-105 active:scale-95 text-center relative overflow-hidden group"
               >
-                <span className="relative z-10 drop-shadow-md">AGENDAR LEITURA</span>
+                <span className="relative z-10 drop-shadow-md">REVELAR MEU MAPA</span>
                 <div className="absolute inset-0 animate-shimmer pointer-events-none" />
               </button>
               <button
-                onClick={() => navigate('/servicos')}
+                onClick={() => navigate('/PRA VOCÊ')}
                 className="px-8 py-4 bg-transparent border-2 border-white/30 text-white font-semibold rounded-lg transition-all duration-300 hover:border-white/60 hover:bg-white/10 hover:backdrop-blur-sm active:scale-95 text-center"
               >
-                CONHECER SERVIÇOS
+                DESCOBRIR MAIS
               </button>
             </motion.div>
 
