@@ -53,10 +53,10 @@ function HeroSection() {
               transition={{ duration: 0.8, delay: 0.3 }}
               className="text-5xl md:text-6xl lg:text-7xl text-white leading-[1.05] font-medium"
                style={{
+                  fontFamily: '"Cormorant Garamond", serif',
                   fontweight: 500,
                   letterSpacing: '-0.05em',
-                  textWrap: 'balance',
-                  fontFamily: '"Cormorant Garamond", serif'}}
+                  textWrap: 'balance'}}
             >
               Você não é só o seu signo.
             </motion.h1>
