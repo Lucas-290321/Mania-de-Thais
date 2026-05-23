@@ -98,14 +98,14 @@ function HeroSection() {
               className="flex flex-col sm:flex-row gap-4"
             >
               <button
-                onClick={() => navigate('/LEITURAS')}
+                onClick={() => navigate('/CONTATO')}
                 className="px-8 py-4 bg-[hsl(var(--golden-orange))] text-white font-semibold rounded-lg transition-all duration-300 hover:shadow-[0_0_40px_hsl(var(--golden-orange)/0.6)] hover:scale-105 active:scale-95 text-center relative overflow-hidden group"
               >
                 <span className="relative z-10 drop-shadow-md">REVELAR MEU MAPA</span>
                 <div className="absolute inset-0 animate-shimmer pointer-events-none" />
               </button>
               <button
-                onClick={() => navigate('/PRA VOCÊ')}
+                onClick={() => navigate('/SERVICOS')}
                 className="px-8 py-4 bg-transparent border-2 border-white/30 text-white font-semibold rounded-lg transition-all duration-300 hover:border-white/60 hover:bg-white/10 hover:backdrop-blur-sm active:scale-95 text-center"
               >
                 DESCOBRIR MAIS
