@@ -70,7 +70,12 @@ function HeroSection() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
-              className="font-script text-4xl md:text-5xl text-[hsl(var(--golden-orange))] text-glow-orange"
+              className="text-5xl md:text-6xl lg:text-7xl text-white leading-[1.05] font-medium"
+               style={{
+                  fontFamily: '"Montserrat ", serif',
+                  fontWeight: 500,
+                  letterSpacing: '-0.01em',
+                  textWrap: 'balance'}}
             >
               Existe um universo inteiro dentro de você.
             </motion.p>
