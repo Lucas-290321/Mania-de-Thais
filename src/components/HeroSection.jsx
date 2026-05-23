@@ -70,14 +70,14 @@ function HeroSection() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
-              className="text-2xl md:text-3xl lg:text-3xl text-[#c89b5b] leading-[1.05] font-semibold"
+              className="text-2xl md:text-3xl lg:text-3xl text-[#c89b5b] leading-[1.05]"
                style={{
                   fontFamily: '"Inter", serif',
                   fontWeight: 500,
                   letterSpacing: '-0.01em',
                   textWrap: 'balance'}}
             >
-              A Astrologia não prevê, nem determina quem você é. Ela traduz as energias invisíveis a sua vida.
+              Seu mapa astral conta o roteiro da vida e os personagens que vivem em você; revelando a pessoa que existe atrás de todo esse espetáculo que é viver.
             </motion.p>
 
             {/* Body Text */}
@@ -87,7 +87,7 @@ function HeroSection() {
               transition={{ duration: 0.8, delay: 0.5 }}
               className="text-lg text-white/80 leading-relaxed max-w-prose drop-shadow-sm"
             >
-              Seu mapa astral conta o roteiro da vida e os personagens que vivem em você; revelando a pessoa que existe atrás de todo esse espetáculo que é viver.
+               A Astrologia não prevê, nem determina quem você é. Ela traduz as energias invisíveis  a sua vida.
             </motion.p>
 
             {/* Buttons */}
