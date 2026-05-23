@@ -12,7 +12,7 @@ function HeroSection() {
       className="min-h-screen flex items-center pt-20 relative overflow-hidden bg-cover bg-center"
       style={{
         backgroundImage: "url('/imagem_01.jpeg')",
-        backgroundSize: 'cover',
+        backgroundSize: '80%',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat'
       }}>
