@@ -6,7 +6,6 @@ import ServicesSection from '@/components/ServicesSection.jsx';
 import AboutSection from '@/components/AboutSection.jsx';
 import ContentSection from '@/components/ContentSection.jsx';
 import CTABanner from '@/components/CTABanner.jsx';
-import Footer from '@/components/Footer.jsx';
 
 function HomePage() {
   return (
@@ -28,7 +27,6 @@ function HomePage() {
           <ContentSection />
           <CTABanner />
         </main>
-        <Footer />
       </div>
     </>
   );
