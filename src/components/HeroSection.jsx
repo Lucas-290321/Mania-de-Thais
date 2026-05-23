@@ -70,7 +70,7 @@ function HeroSection() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
-              className="text-4xl md:text-5xl text-[hsl(var(--golden-orange))] text-glow-orange leading-[1.05] font-semibold"
+              className="text-2xl md:text-3xl lg:text-4xl text-white leading-[1.05] font-semibold"
                style={{
                   fontFamily: '"Inter", serif',
                   fontWeight: 500,
