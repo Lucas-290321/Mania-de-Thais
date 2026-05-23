@@ -54,7 +54,7 @@ function HeroSection() {
               className="text-5xl md:text-6xl lg:text-7xl text-white leading-tight drop-shadow-md font-semibold"
                style={{
                   letterSpacing: '-0.02em',
-                 textWrap: 'balance',
+                  textWrap: 'balance',
                   fontFamily: '"Cormorant Garamond", serif'}}
             >
               Você não é só o seu signo.
