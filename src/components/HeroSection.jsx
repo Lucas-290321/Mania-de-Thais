@@ -51,7 +51,7 @@ function HeroSection() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.3 }}
-              className="font-serif-display text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight drop-shadow-md"
+              className="font-Cormorant Garamond SemiBold-text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight drop-shadow-md"
               style={{ letterSpacing: '-0.02em', textWrap: 'balance' }}
             >
               Você não é só o seu signo.
@@ -62,9 +62,9 @@ function HeroSection() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
-              className="font-script text-4xl md:text-5xl text-[hsl(var(--golden-orange))] text-glow-orange"
+              className="font-Inter Regular / Medium-4xl md:text-5xl text-[hsl(var(--golden-orange))] text-glow-orange"
             >
-              Você é um universo inteiro.
+              Existe um universo inteiro dentro de você.
             </motion.p>
 
             {/* Body Text */}
