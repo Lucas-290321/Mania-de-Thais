@@ -1,4 +1,5 @@
 import React from 'react';
+import link from 'react-router-dom';
 import { motion } from 'framer-motion';
 
 function AboutSection() {
@@ -66,12 +67,12 @@ function AboutSection() {
               transition={{ duration: 0.6, delay: 0.3 }}
               className="pt-4"
             >
-              <a
-                href="#sobre"
+              <link
+                href="/sobre"
                 className="inline-block px-10 py-4 border-2 border-[hsl(var(--golden-orange))] text-[hsl(var(--golden-orange))] font-bold text-lg rounded-lg transition-all duration-300 hover:bg-[hsl(var(--golden-orange)/0.1)] hover:shadow-[0_0_40px_hsl(var(--golden-orange)/0.4)] active:scale-95"
               >
                 CONHEÇA MINHA HISTÓRIA
-              </a>
+              </link>
             </motion.div>
           </motion.div>
         </div>
