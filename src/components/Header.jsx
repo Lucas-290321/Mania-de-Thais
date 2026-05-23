@@ -33,7 +33,7 @@ function Header() {
       style={{
         backgroundImage: `
           linear-gradient(rgba(6,3,18,.93), rgba(6,3,18,.93)),
-          url('https://images.unsplash.com/photo-1502139214982-d0ad755818d8?q=80&w=1600')
+          url()
         `,
         backgroundSize: 'cover',
         backgroundPosition: 'center'
