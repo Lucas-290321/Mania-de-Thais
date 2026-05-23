@@ -142,7 +142,7 @@ function HeroSection() {
             {/* Embedded Image with Blend Mode and Radial Mask */}
             <div className="relative z-10 w-[120%] h-[120%] -ml-[10%] flex items-center justify-center">
               <img
-                src="https://horizons-cdn.hostinger.com/50261a91-1aa2-430b-9ca0-2098d60d8bf4/chatgpt-image-10-de-mai.-de-2026-04_43_06_preview_rev_1-iUG0W.png"
+                src="/imagem_01.jpeg"
                 alt="Mystical woman with zodiac wheel, moon, candles, and crystals embedded in cosmic atmosphere"
                 className="w-full h-full object-contain filter contrast-125 brightness-110 mask-radial-fade mix-blend-screen"
                 style={{
