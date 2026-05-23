@@ -58,7 +58,7 @@ function HeroSection() {
                   letterSpacing: '-0.01em',
                   textWrap: 'balance'}}
             >
-              Você não é{''}
+              Você não é {''}
                <span className="text-[#c89b5b] italic">
                  somente
                </span>{' '}
