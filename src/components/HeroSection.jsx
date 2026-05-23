@@ -54,7 +54,7 @@ function HeroSection() {
               className="text-5xl md:text-6xl lg:text-7xl text-white leading-[1.05] font-medium"
                style={{
                   fontFamily: '"Cormorant Garamond", serif',
-                  fontweight: 700,
+                  fontweight: 1000,
                   letterSpacing: '-0.01em',
                   textWrap: 'balance'}}
             >
