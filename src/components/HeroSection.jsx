@@ -152,7 +152,7 @@ function HeroSection() {
             <img
               src="/imagem_01.jpeg"
               alt="Mystical woman with zodiac wheel, moon, candles, and crystals embedded in cosmic atmosphere"
-              className="w-full h-full object-cover mix-blend-screen opacity-95"
+              className="w-full h-full object-contain mix-blend-screen opacity-95"
               style={{
                 filter: 'brightness(1.05) contrast(1.08)'
                }}
