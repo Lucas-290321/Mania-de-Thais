@@ -48,18 +48,18 @@ function Header() {
             className="flex items-center gap-3 notranslate"
             translate="no"
           >
-            <Sun className="w-7 h-7 text-[#d8a547]" strokeWidth={1.3} />
+            <Sun className="w-7 h-7 text-[#c89b5b]" strokeWidth={1.3} />
 
             <div className="leading-none">
               <h1
-                className="font-cormorant text-[26px] lg:text-[28px] tracking-[2px] text-[#d8a547] notranslate"
+                className="font-cormorant text-[26px] lg:text-[28px] tracking-[2px] text-[#c89b5b] notranslate"
                 translate="no"
               >
                 THAIS LIMA
               </h1>
 
               <p
-                className="font-cormorant text-[9px] lg:text-[10px] tracking-[2.5px] text-[#d8a547]/75 mt-[2px] notranslate"
+                className="font-cormorant text-[9px] lg:text-[10px] tracking-[2.5px] text-[#c89b5b]/75 mt-[2px] notranslate"
                 translate="no"
               >
                 ASTROLOGIA E AUTOCONHECIMENTO
@@ -80,7 +80,7 @@ function Header() {
                   className={`relative text-[11px] tracking-[1.8px] font-medium notranslate ${
                     isActive
                       ? 'text-[#d8a547]'
-                      : 'text-white/85 hover:text-[#d8a547]'
+                      : 'text-white/85 hover:text-[#c89b5b]'
                   }`}
                 >
                   <span className="notranslate" translate="no">
@@ -88,7 +88,7 @@ function Header() {
                   </span>
 
                   <span
-                    className={`absolute left-0 -bottom-[10px] h-[1px] bg-[#d8a547] transition-all duration-300 ${
+                    className={`absolute left-0 -bottom-[10px] h-[1px] bg-[#c89b5b] transition-all duration-300 ${
                       isActive ? 'w-full' : 'w-0 group-hover:w-full'
                     }`}
                   />
@@ -101,7 +101,7 @@ function Header() {
           <Link
             to="/contato"
             translate="no"
-            className="hidden lg:flex items-center justify-center px-7 py-3 rounded-full bg-[#c89235] text-[#1a0c05] font-semibold text-[11px] tracking-[1.4px] uppercase notranslate"
+            className="hidden lg:flex items-center justify-center px-7 py-3 rounded-full bg-[#c89b5b] text-[#1a0c05] font-semibold text-[11px] tracking-[1.4px] uppercase notranslate"
           >
             <span className="notranslate" translate="no">
               ✦ QUERO MINHA LEITURA ✦
@@ -125,7 +125,7 @@ function Header() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="lg:hidden bg-[#090313]/95 backdrop-blur-xl border-t border-[#d8a547]/20"
+            className="lg:hidden bg-[#090313]/95 backdrop-blur-xl border-t border-[#c89b5b]/20"
           >
             <nav className="px-6 py-6 flex flex-col gap-5">
               {navLinks.map((link) => (
@@ -143,7 +143,7 @@ function Header() {
               <Link
                 to="/contato"
                 translate="no"
-                className="mt-4 py-3 rounded-full bg-[#c89235] text-center text-[#1a0c05] font-semibold notranslate"
+                className="mt-4 py-3 rounded-full bg-[#c89b5b] text-center text-[#1a0c05] font-semibold notranslate"
               >
                 AGENDAR LEITURA
               </Link>
