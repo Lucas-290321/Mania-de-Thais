@@ -72,7 +72,7 @@ function HeroSection() {
               transition={{ duration: 0.8, delay: 0.4 }}
               className="text-2xl md:text-3xl lg:text-3xl text-[#c89b5b] leading-[1.05] font-medium"
                style={{
-                  fontFamily: '"Inter", serif',
+                  fontFamily: '"Manrope", serif',
                   fontWeight: 500,
                   letterSpacing: '-0.01em',
                   textWrap: 'balance'}}
