@@ -87,7 +87,7 @@ function HeroSection() {
               transition={{ duration: 0.8, delay: 0.5 }}
               className="text-lg text-white/80 leading-relaxed max-w-prose drop-shadow-sm"
             >
-              A astrologia é uma ferramenta poderosa de autoconhecimento que revela os padrões energéticos que moldam sua jornada. Através do seu mapa astral, você descobre não apenas quem você é, mas também o potencial infinito que carrega dentro de si.
+              Seu mapa astral conta o roteiro da vida e os personagens que vivem em você; revelando a pessoa que existe atrás de todo esse espetáculo que é viver.
             </motion.p>
 
             {/* Buttons */}
