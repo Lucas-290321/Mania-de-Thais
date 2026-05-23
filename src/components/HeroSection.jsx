@@ -70,9 +70,9 @@ function HeroSection() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
-              className="text-5xl md:text-6xl lg:text-7xl text-white leading-[1.05] font-medium"
+              className="text-4xl md:text-5xl lg:text-6xl text-white leading-[1.05] font-semibold"
                style={{
-                  fontFamily: '"Montserrat ", serif',
+                  fontFamily: '"Inter", serif',
                   fontWeight: 500,
                   letterSpacing: '-0.01em',
                   textWrap: 'balance'}}
