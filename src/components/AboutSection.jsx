@@ -69,7 +69,7 @@ function AboutSection() {
             >
               <Link
                 to="/Sobre"
-                className="inline-block px-10 py-4 border-2 border-[#c89b5b] text-[#c89b5b] font-bold text-lg rounded-lg transition-all duration-300 hover:bg-[#c89b5b] hover:shadow-[0_0_40px_hsl(var(--golden-orange)/0.4)] active:scale-95"
+                className="inline-block px-10 py-4 border-2 border-[#c89b5b] text-[#c89b5b] font-bold text-lg rounded-lg transition-all duration-300 hover:bg-[hsl(var(--golden-orange)/0.1)] hover:shadow-[0_0_40px_hsl(var(--golden-orange)/0.4)] active:scale-95"
               >
                 CONHEÇA MINHA HISTÓRIA
               </Link>
