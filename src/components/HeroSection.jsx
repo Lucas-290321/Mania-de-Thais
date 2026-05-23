@@ -11,7 +11,10 @@ function HeroSection() {
       id="inicio" 
       className="min-h-screen flex items-center pt-20 relative overflow-hidden bg-cover bg-center"
       style={{
-        backgroundImage: "src('/imagem_01.jpeg')"
+        backgroundImage: "url('/imagem_01.jpeg')",
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat'
       }}>
       {/* Background Particle Effects */}
       <div className="absolute inset-0 pointer-events-none z-0">
