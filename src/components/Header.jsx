@@ -49,7 +49,7 @@ function Header() {
             translate="no"
           >
             <img
-              src="/imagem_03"
+              src="/imagem_03.png"
               alt="Logo Thais Lima"
               className='w-7 h-7 object-contain'
             />  
