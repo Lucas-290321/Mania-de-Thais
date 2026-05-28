@@ -51,7 +51,7 @@ function Header() {
             <img
               src="/imagem_03.png"
               alt="Logo Thais Lima"
-              className='w-13 h-13 object-contain'
+              className='w-12 h-12 object-contain'
             />  
 
             <div className="leading-none">
