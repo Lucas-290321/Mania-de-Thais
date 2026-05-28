@@ -54,7 +54,7 @@ function HeroSection() {
               <img
               src="/imagem_03.png"
               alt="Logo Thais Lima"
-              className='w-12 h-12 object-contain'
+              className='w-15 h-15 object-contain'
             />
             </motion.div>
 
