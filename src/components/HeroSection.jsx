@@ -51,12 +51,7 @@ function HeroSection() {
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5, delay: 0.2 }}
             >
-              <img
-              src="/imagem_03.png"
-              alt="Logo Thais Lima"
-              className='w-15 h-15 object-contain'
-            />
-            </motion.div>
+            
 
             {/* Main Heading */}
             <motion.h1
@@ -76,6 +71,13 @@ function HeroSection() {
                </span>{' '}
               signo.
             </motion.h1>
+
+           <img
+              src="/imagem_03.png"
+              alt="Logo Thais Lima"
+              className='w-15 h-15 object-contain'
+            />
+            </motion.div>
 
             {/* Subheading - Script Style */}
             <motion.p
