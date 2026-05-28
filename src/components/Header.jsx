@@ -48,7 +48,11 @@ function Header() {
             className="flex items-center gap-3 notranslate"
             translate="no"
           >
-            <Sun className="w-7 h-7 text-[#c89b5b]" strokeWidth={1.3} />
+            <img
+              src="/imagem_03"
+              alt="Logo Thais Lima"
+              className='w-7 h-7 object-contain'
+            />  
 
             <div className="leading-none">
               <h1
