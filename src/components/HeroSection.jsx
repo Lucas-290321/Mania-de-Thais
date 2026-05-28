@@ -51,7 +51,11 @@ function HeroSection() {
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5, delay: 0.2 }}
             >
-              <Sun className="w-12 h-12 text-[hsl(var(--golden-orange))] drop-shadow-[0_0_15px_rgba(255,138,0,0.5)]" />
+              <img
+              src="/imagem_03.png"
+              alt="Logo Thais Lima"
+              className='w-12 h-12 object-contain'
+            />
             </motion.div>
 
             {/* Main Heading */}
