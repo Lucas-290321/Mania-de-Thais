@@ -45,7 +45,7 @@ function HeroSection() {
             transition={{ duration: 0.8 }}
             className="space-y-8 relative z-20"
           >
-            {/* Small Sun Logo */}
+            {/* Small Logo */}
             <motion.div
               initial={{ opacity: 0, scale: 0 }}
               animate={{ opacity: 1, scale: 1 }}
@@ -71,7 +71,7 @@ function HeroSection() {
                </span>{' '}
               signo.
             </motion.h1>
-
+            <></>
            <img
               src="/imagem_03.png"
               alt="Logo Thais Lima"
